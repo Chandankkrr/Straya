@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": { "*": ["types/*"] },
+      "esModuleInterop": true,
+      "jsx": "react",
+      "lib": ["esnext"],
+      "noEmit": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+  }
